@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    background-color: lightgrey;
+}
+li {
+    padding: 10px;
+    color: grey;
+    font-family: Raleway, sans-serif;
+    margin-right: 34px;
+}
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+a:hover {
+    color: black;
+}
+.grid {
+    display: grid;
+    background-color: lightgrey;
+    width: 610px;
+    height: 205px;
+    margin: 10px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+.Wgrid {
+    background-image: "https://www.outdoorproject.com/sites/default/files/styles/odp__1500_x_750_/public/features/kmtm-3.jpg?itok=codWJv55";
+    width: 200px;
+    height: 100px;
+}
+h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    color: black;
+}
+.whistler {
+    font-size: 26px;
+    font-family: serif;
+    color: rgb(0, 0, 0);
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: forestgreen;
+    padding: 40px 5px;
+}
+h4.author {
+    color: rgb(60, 60, 60);
+    width: 130px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-family: monospace;
+    border: 2px solid rgb(60, 60, 60);
+    text-align: center;
+    padding: 1px;
+    font-size: 15px;
+}
+p.author  {
+    font-family: monospace;
+    width: 400px;
+    margin: 40px auto;
+    margin-top: 10px;
+    border-bottom: 20px solid black;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+#whistler {
+    background-attachment: scroll;
+    background-image: url(https://www.outdoorproject.com/sites/default/files/styles/cboxshow/public/1446851650/kmtm-7.jpg?itok=S2fOSSB3);
+    background-position: center;
+    height: 500px;
+}
+#whistler h3 {
+    color: whitesmoke;
+    font-size: 80px;
+    font-family: "Josefin Sans", sans-serif;
+    border: 10px solid whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    top: 90px;
+    padding: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
